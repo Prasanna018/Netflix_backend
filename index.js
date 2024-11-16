@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(express.urlencoded({ extended: true }))
 const corsOptions = {
-    origin: 'https://netflix-frontend-u0zl.onrender.com', // imp
+    origin: 'http://localhost:3000', // imp
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }
